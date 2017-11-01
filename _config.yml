@@ -5,7 +5,7 @@ baseurl: ""
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Text Mining Notes
+  title: Text Mining Backyard
   avatar: assets/img/rickavatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
