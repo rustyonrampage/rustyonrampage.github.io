@@ -5,10 +5,13 @@ explanation: We are going to explore different ways pf using Python library nltk
 meta: Using Python library nltk for sentence and word tokenziation. 
 excerpt_separator: <!--more-->
 ---
-**Tokenization** is the process of splitting up text into independent blocks that can describe syntax and semantics. Even though text can be split up into paragraphs, sentences, clauses, phrases and words, but the most popular techniques are sentence and word tokenization.
-<!--more-->
+**Tokenization** is the process of splitting up text into independent blocks that can describe syntax and semantics. Even though text can be split up into paragraphs, sentences, clauses, phrases and words, but the most popular ones are sentence and word tokenization.
 
-NLTK provides us sentence and word level tokenizers. These tokenizers are very capable. First of all, let's import the essential libraries.
+
+NLTK provides us sentence and word level tokenizers. These tokenizers can get our work done for the most part. <!--more-->
+First of all, let's import the essential libraries.
+
+
 ```python
 #let's import the libraries
 import nltk
