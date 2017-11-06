@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Tokenization with Python and NLTK
-explanation: We are going to explore different ways pf using Python library nltk to tokenize text into sentences and words.
+explanation: We are going to explore different ways of using Python library nltk to tokenize text into sentences and words.
+category: Text-mining
 meta: Using Python library nltk for sentence and word tokenziation. 
 excerpt_separator: <!--more-->
 ---
