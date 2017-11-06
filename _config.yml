@@ -72,6 +72,7 @@ paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
 markdown: kramdown
+input: GFM
 highlighter: rouge
 sass:
   sass_dir: _sass
