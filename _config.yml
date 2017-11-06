@@ -15,7 +15,7 @@ theme_settings:
   header_text: >
      <strong> Hello World! </strong>
 
-     <p>It's a blog about about gathering text data, exploring and processing it, and eventually getting sense of it effectively.</p>
+     <p>It's a blog about about gathering text data, exploring and processing it, and eventually making sense of it effectively.</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
