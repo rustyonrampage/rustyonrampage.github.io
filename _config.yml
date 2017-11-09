@@ -15,7 +15,7 @@ theme_settings:
   header_text: >
      <strong> Hello World! </strong>
 
-     <p>It's a blog about about gathering text data, exploring and processing it, and eventually making sense of it effectively.</p>
+     <p>It's a blog  about gathering text data, exploring and processing it, and eventually making sense of it effectively.</p>
   header_text_feature_image:
   footer_text: >
    Happy Coding <i class="fa fa-smile-o" aria-hidden="true"></i>
