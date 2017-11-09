@@ -9,7 +9,7 @@ theme_settings:
   avatar: assets/img/rickavatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "It's a blog about about gathering text data, exploring and processing it, and eventually making sense of it effectively." # used by search engines
+  description: "It's a blog  about gathering text data, exploring and processing it, and eventually making sense of it effectively." # used by search engines
 
   # Header and footer text
   header_text: >
