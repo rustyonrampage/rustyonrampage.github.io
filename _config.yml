@@ -21,7 +21,7 @@ theme_settings:
    Happy Coding <i class="fa fa-smile-o" aria-hidden="true"></i>
 
   # Icons
-  rss: false
+  rss: true
   email_address: # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
