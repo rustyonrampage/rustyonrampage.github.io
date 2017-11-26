@@ -48,7 +48,7 @@ We can see the difference between the outputs of these two algorithms. There is 
 Lemmatization is quite similar to stemming, as it also converts a word into its base form. However the root word also called lemma, is present in dictionary.
 It is considerably slower than stemming becasue an additonal step is perfomed to check if the lemma formed is present in dictionary.
 
-Note: We also have to specify the parts of the speech of the word in order to get the correct lemma. Words can be in the form of Noun(n), Adjective(a), Verb(v), Adverb(r).
+**Note:** We also have to specify the parts of speech of the word in order to get the correct lemma. Words can be in the form of Noun(n), Adjective(a), Verb(v), Adverb(r).
 Therefore, first we have to get the POS of a word before we can lemmatize it.
 
 First let's import the libraries.
@@ -63,13 +63,13 @@ Okay, now we have to get the POS of a word. For this pupose, we can use Wordnet 
 It returns all the POS rating of a word in a list. I have written a function for it. 
 ```python
 def get_pos( word ):
-    synset = wordnet.synsets(word)
+    w_synsets = wordnet.synsets(word)
 
     pos_counts = Counter()
-    pos_counts["n"] = len(  [ item for item in synset if item.pos()=="n"]  )
-    pos_counts["v"] = len(  [ item for item in synset if item.pos()=="v"]  )
-    pos_counts["a"] = len(  [ item for item in synset if item.pos()=="a"]  )
-    pos_counts["r"] = len(  [ item for item in synset if item.pos()=="r"]  )
+    pos_counts["n"] = len(  [ item for item in w_synsets if item.pos()=="n"]  )
+    pos_counts["v"] = len(  [ item for item in w_synsets if item.pos()=="v"]  )
+    pos_counts["a"] = len(  [ item for item in w_synsets if item.pos()=="a"]  )
+    pos_counts["r"] = len(  [ item for item in w_synsets if item.pos()=="r"]  )
     
     most_common_pos_list = pos_counts.most_common(3)
     return most_common_pos_list[0][0] # first indexer for getting the top POS from list, second indexer for getting POS from tuple( POS: count )
