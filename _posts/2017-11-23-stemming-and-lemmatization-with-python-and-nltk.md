@@ -85,5 +85,23 @@ for word in words:
 ```output
 run lie car m!spleed
 ```
+
+## Difference between Stemming and Lemmatization
+The difference between stems and lemmas is that lemmas are present in dictionary and stems might not be present in dictionary. Okay this piece of code for demonstration will use stuff from above.
+```python
+print "Stemming results:",
+print ps.stem("deactivating"), ps.stem("deactivated"), ps.stem("deactivates")
+
+print "Lemmatization results:",
+words = ["deactivating","deactivated","deactivates"]
+wnl = WordNetLemmatizer()
+for word in words:
+    print wnl.lemmatize( word, get_pos(word) ), #printing without newline character
+```
+```output
+Stemming results: deactiv deactiv deactiv
+Lemmatization results: deactivate deactivate deactivate
+``` 
+
 Alright, that concludes our demonstration for stemming and lemmatization using NLTK in Python.
 
