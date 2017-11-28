@@ -95,7 +95,7 @@ Total words are  12
 ```
 
 #### 2.2) Using WordPunctTokenizer()
-NLTK recommends word_tokenize and WordPunctTokenize for most purposes. This method also separates the punctuations.
+NLTK recommends word_tokenize and WordPunctTokenize for most purposes. This method also separates the punctuation.
 ```python
 sentence = "Let's see how the tokenizer split's this! :)" 
 words = nltk.WordPunctTokenizer(sentence)
@@ -107,7 +107,7 @@ Total words are  13
 ['Let', "'", 's', 'see', 'how', 'the', 'tokenizer', 'split', "'", 's', 'this', '!', ':)']
 ```
 #### 2.3) Using WhitespaceTokenizer()
-It tokenizes text on whitespace characters. Alternatively we can  use string split() function, if this functionality is desered.
+It tokenizes text on whitespace characters. Alternatively we can  use string split() function, if this functionality is desired.
 ```python
 whitespace_wt = nltk.WhitespaceTokenizer() 
 words = whitespace_wt.tokenize(sentence) 
