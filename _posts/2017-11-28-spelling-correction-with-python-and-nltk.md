@@ -24,7 +24,7 @@ print reduce_lengthening( "finallllllly" )
 ```output
 finally
 ```
-Since the character repeated was 'L' and "finally" has two repeated 'L', therefore this example mapped on it perfectly but what if it was some word that has actually no repeated characters at all. It would fail in that case for example, "amazzzzing" will return "amazzing", which is wrong. So we need an spell correction after word lengthening to get the correct word.
+Since the character repeated was 'L' and "finally" has two repeated 'L', therefore this example mapped on it perfectly but what if it was some word that has actually no repeated characters at all. It would fail in that case for example, "amazzzzing" will return "amazzing", which is wrong. So we need  spell correction after word lengthening to get the correct word.
 
 ## Spell Correction
 It is the process of correcting the spellings of a word. Spell correction algorithms are typically based on min-edit functions because brute force comparisons will be too time consuming.
