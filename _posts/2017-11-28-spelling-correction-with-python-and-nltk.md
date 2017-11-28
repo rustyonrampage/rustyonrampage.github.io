@@ -8,7 +8,7 @@ tags: [ text-mining]
 excerpt_separator: <!--more-->
 ---
 
-Spelling correction is the process of correcting word's spelling for example "lisr" instead of "list". Word Lengthening is also a type of spelling mistake in which characters withing a word are repeated wrongly for example "awwwwsome" instead of "awesome". 
+Spelling correction is the process of correcting word's spelling for example "lisr" instead of "list". Word Lengthening is also a type of spelling mistake in which characters within a word are repeated wrongly for example "awwwwsome" instead of "awesome". 
 <!--more-->
 The way we are going to solve spelling correction is by fixing the word lengthening issue first and then deal with spelling mistakes. 
 
