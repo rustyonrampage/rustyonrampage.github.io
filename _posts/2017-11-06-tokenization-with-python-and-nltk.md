@@ -119,7 +119,7 @@ Total words are  8
 ["Let's", 'see', 'how', 'the', 'tokenizer', "split's", 'this!', ':)']
 ```
 #### 2.4) Using RegexpTokenizer()
-Same as sentence tokenization we can also get words using regular expressions. It gives us a lots of control to get tweek tokenization to our requirements.
+Same as sentence tokenization we can also get words using regular expressions. It gives us a lots of control to get tweak tokenization to our requirements.
 ```python
 GAP_PATTERN = r'\s+'         
 regex_wt = nltk.RegexpTokenizer(pattern=GAP_PATTERN, gaps=True) 
