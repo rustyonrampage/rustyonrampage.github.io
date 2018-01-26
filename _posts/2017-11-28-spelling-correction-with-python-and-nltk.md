@@ -29,7 +29,7 @@ Since the character repeated was 'L' and "finally" has two repeated 'L', therefo
 ## Spell Correction
 It is the process of correcting the spellings of a word. Spell correction algorithms are typically based on min-edit functions because brute force comparisons will be too time consuming.
 
-In order for min-edit functions to work effectively, we actually need to use word lengthening first. Therefore, our spell correction is dependent on word lengthening. NLTK has no spell correction module, but there are many other libraries that can perform this task. I'll using [pattern en](https://www.clips.uantwerpen.be/pages/pattern-en) for this purpose. It is also available on anaconda package manager.
+In order for min-edit functions to work effectively, we actually need to use word lengthening first. Therefore, our spell correction is dependent on word lengthening. NLTK has no spell correction module, but there are many other libraries that can perform this task. I'll using [pattern en](https://www.clips.uantwerpen.be/pages/pattern-en) for this purpose. **Note: Install the Pattern library using Pip package manager and don't use conda/ anaconda package manager, there is a bug right now that can mess up and remove your existing anaconda environments**. 
 ```python
 from pattern.en import spelling
 
