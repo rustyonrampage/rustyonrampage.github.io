@@ -2,7 +2,7 @@
 layout: post
 title: Running Tensorflow on AMD GPU
 explanation: In this article, we are going to see a very simple method on how to run Tensorflow on AMD GPUs.
-category: [deep-learning, tensorflow, keras, anaconda, windows10, plaidml ]
+category: deep-learning
 meta: Easiest Working Method for running Tensorflow on AMD GPU
 tags: [ deep-learning ] 
 excerpt_separator: <!--more-->
