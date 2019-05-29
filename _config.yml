@@ -92,3 +92,5 @@ theme: jekyll-theme-type
 exclude:
   - Gemfile
   - Gemfile.lock
+  # - vendor/bundle
+  
