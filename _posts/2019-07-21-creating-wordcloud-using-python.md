@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 ---
 
 Word clouds (tag clouds) are used to provide an overview of text in image form, in which the size of each word indicates its importance or frequency.
-In this article, we are going to see how to create beautiful word clouds in Python. 
+In this article, we are going to see how to create beautiful word clouds in Python. Word clouds can be used to provide an overview of the data or to simply create an artwork.
 <!--more-->
 ###  Installing the package
 First, lets install the wordcloud package.
